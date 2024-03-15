@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dqms"
+version = "0.1.0"
+description = "The Data Quality Management System (DQMS) is an open-source Python project aimed at providing tools and frameworks for ensuring and enhancing the quality of climate data. Designed with extensibility and usability in mind, DQMS helps data scientists and researchers identify, analyze, and correct data quality issues in various data sets."
+authors = ["Kodjo A. <koad7@*****.fr>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
