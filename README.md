@@ -12,6 +12,7 @@ The Data Quality Management System (DQMS) is an open-source Python project aimed
 - **Extensible Framework**: Designed to be easily extendable for adding new data quality checks, data sources, and visualization techniques.
 
 ## Getting Started
+````
 DataQualityManagement/
 │
 ├── dataquality/                 # Main package for data quality logic
@@ -55,6 +56,7 @@ DataQualityManagement/
 ├── requirements.txt
 └── setup.py
 
+````
 ### Prerequisites
 
 - Python 3.8+
