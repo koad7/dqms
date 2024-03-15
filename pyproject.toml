@@ -14,6 +14,9 @@ click = "^8.1.7"
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"
 sphinx = "^7.2.6"
+black = "^24.2.0"
+pre-commit = "^3.6.2"
+flake8 = "^7.0.0"
 
 [tool.poetry.scripts]
 build-docs = "sphinx-build docs docs/_build"
